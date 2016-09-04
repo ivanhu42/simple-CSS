@@ -1,0 +1,39 @@
+/* last updated: 2016-09-03 */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("bilibili.com") {
+  .footer {
+    display: none !important;
+  }
+}
+
+@-moz-document url-prefix("http://www.bilibili.com/list/") {
+  .z_top_container,
+  .header {
+    display: none !important;
+  }
+  .b-page-large {
+    float: initial !important;
+  }
+}
+
+@-moz-document url("http://www.bilibili.com/") {
+  #index_nav,
+  .menu-r,
+  .m-i-square,
+  .m-i-live,
+  #b_promote,
+  .b-section-bangumi,
+  #b_technology,
+  #b_teleplay,
+  #b_life,
+  #b_game,
+  #b_fashion,
+  #b_ad,
+  #b_live,
+  #b_ent,
+  #b_recommend {
+    display: none !important;
+  }
+}
