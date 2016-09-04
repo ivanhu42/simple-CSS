@@ -1,0 +1,66 @@
+/* last updated: 2016-09-03 */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://www.zhihu.com/question/") {
+  body {
+    padding: 0 !important;
+  }
+  div,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  input {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .zu-top {
+    background: #0767c8 !important;
+  }
+  .zg-btn-follow {
+    background: #8ab923 !important;
+  }
+  .zh-footer,
+  .zh-question-followers-sidebar,
+  .zm-side-section, .icon-spike,
+  .zh-backtotop, i,
+  .zm-item-vote-info,
+  .zm-votebar,
+  .zm-list-avatar,
+  #zh-question-meta-wrap,
+  .comment-app-holder a,
+  .comment-app-holder span,
+  .comment-app-holder > div > div:last-child,
+  .member-profile-card-pm,
+  .personal {
+    display: none !important;
+  }
+  .zh-answers-title,
+  .zm-item-answer {
+    padding: 0 !important;
+  }
+  .zu-main-content-inner,
+  .comment-app-holder div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .goog-scrollfloater-floating {
+    top: 0 !important;
+  }
+  .comment-app-holder {
+    max-width: initial !important;
+  }
+  .zm-meta-panel {
+    padding: 15px 0 !important;
+  }
+  #top-nav-profile-dropdown a {
+    text-indent: 2em;
+  }
+}
