@@ -1,0 +1,9 @@
+/* last updated: 2016-09-03 */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("http://mp.weixin.qq.com/") {
+  .qr_code_pc {
+    display: none !important;
+  }
+}
