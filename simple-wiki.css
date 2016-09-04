@@ -1,0 +1,31 @@
+/* last updated: 2016-09-03 */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wikipedia.org"), domain(wikibooks.org) {
+  body {
+    font-size: 16pt;
+    text-align: justify;
+    background-color: #fff
+  }
+  #mw-panel,
+  #mw-head,
+  .noprint,
+  #footer,
+  #siteSub,
+  #catlinks,
+  .navbox,
+  .sistersitebox,
+  #page-status {
+    display: none !important;
+  }
+  #content {
+    margin: 0;
+    border: none;
+    width: 70%;
+    margin: auto;
+  }
+  #mw-content-text .growth {
+    display: block;
+  }
+}
